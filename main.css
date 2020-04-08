@@ -1,0 +1,36 @@
+body{
+	background-color: #fff;
+}
+/* Style for menu1- Danh mục sản phẩm */
+.menu-product, .support{
+    background-color: #0d5f3d;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.menu-product h4, .support h4{
+    margin-bottom: -5px;
+}
+.menu-product ul li{
+	padding: 5px 0px;
+}
+.menu-product ul li a{
+	text-decoration: none;
+    color: #FFF;
+}
+.menu-product ul li a:hover{
+	color:#FF0;
+}
+.support p{
+	text-align:center;
+	color:#f7eded;
+	font-weight:bold;
+}
+.support .support1{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+}
