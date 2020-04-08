@@ -38,7 +38,7 @@
 
         <div class="jumbotron text-center">
             <h1>LALISA COMESTIC SHOP</h1>
-            <p>Mỹ phẩm chính hãng - giá tốt</p>
+            <p>Mỹ phẩm chính hãng inisfree với giá tốt nhất</p>
             <form action="" class="form-inline">
                 <input type="text" name="tên bánh" class="form-control" placeholder="Nhập sản phẩm cần tìm" required>
                 <button type="button" class="btn btn-danger">Tìm kiếm</button>
@@ -49,11 +49,49 @@
                 <div id="topproducts" class="text-center bg-pink">
                     <h2>SẢN PHẨM BÁN CHẠY</h2>
                     <h4>Các sản phẩm bán chạy gần đây</h4>
+                    <div class="boxes">
+                        <div class="box">
+                            <a class="a" href="#"><img src="images/banchay1.jpg" width="225px"
+                                    height="200px" /></a><br />
+                            <div align="center">
+                                <a href="#">The Green Tea Seed Serum</a>
+                            </div>
+                            <p><del>230.000 VNĐ</del></p>
+                            <h4>200.000 VNĐ</h4>
+                            <div align="center">
+                                <input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a class="a" href="#"><img src="images/banchay2.jpg" width="225px"
+                                    height="200px" /></a><br />
+                            <div align="center">
+                                <a href="#">No Sebum Mineral Powders</a>
+                            </div>
+                            <p><del>250.000 VNĐ</del></p>
+                            <h4>190.000 VNĐ</h4>
+                            <div align="center">
+                                <input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a class="a" href="trinam3.html"><img src="images/banchay3.jpg" width="225px"
+                                    height="200px" /></a><br />
+                            <div align="center">
+                                <a href="trinam3.html">Super Volcanic Pore Clay Mask</a>
+                            </div>
+                            <p><del>390.000 VNĐ</del></p>
+                            <h4>350.000 VNĐ</h4>
+                            <div align="center">
+                                <input class="button" type="button" onclick="myClick()" value="Mua hàng" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="allproducts" class="text-center bg-pink">
+                <!-- <div id="allproducts" class="text-center bg-pink">
                     <h2>TẤT CẢ SẢN PHẨM</h2>
                     <h4>Các sản phẩm có trong cửa hàng chúng tôi</h4>
-                </div>
+                </div> -->
                 <div id="newproducts" class="text-center bg-pink">
                     <h2>SẢN PHẨM MỚI</h2>
                     <h4>Các loại sản phẩm mới nhất</h4>
@@ -170,6 +208,17 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function myClick() {
+            var x = confirm("Xác nhận mua mặt hàng này");
+            if (x) {
+                alert("Cảm ơn bạn tin tưởng sản phẩm của chúng tôi");
+            } else {
+                alert("Mời bạn quay lại tham khảo sản phẩm khác");
+            }
+        }
+    </script>
 </body>
 
 </html>

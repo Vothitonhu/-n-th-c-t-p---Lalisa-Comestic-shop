@@ -1,6 +1,17 @@
 body{
 	background-color: #fff;
 }
+/* Style for header component */
+.navbar-default {
+    background-color: #0d5f3d;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
 /* Style for menu1- Danh mục sản phẩm */
 .menu-product, .support{
     background-color: #0d5f3d;
@@ -33,4 +44,56 @@ body{
 .support .support1{
     border-bottom: 2px solid #fff;
     margin-bottom: 10px;
+}
+.chuchay1{
+	background-color: #0d5f3d;
+	color: #FFF;
+	text-transform: uppercase;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	border-radius: 10px;
+}
+/* Style for group products */
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+.box{
+	width:225px;
+    border:1px solid #333;
+    border-radius: 10px;
+    margin: 10px 15px;
+}
+.box a{
+	text-decoration:none;
+	color:#000;
+}
+.box a:hover{
+	color:#F60;
+}
+.box p{
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+}
+.box h4{
+	color:#F00;
+	text-align:center;
+}
+.a img{
+    transition-duration: 0.5s;
+}
+.a img:hover{
+    transform:scale(1.5);
+ }
+ .button{
+	background-color:#0d5f3d;
+	height:30px;
+	line-height:30px;
+	border-radius:5px;
+	color:#FFF;
+	padding:0 5px;
 }
