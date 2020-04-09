@@ -8,9 +8,20 @@ body{
 }
 .navbar-default .navbar-brand {
     color: #fff;
+    font-family: 'Italiana', serif;
 }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #d9534f;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #d9534f;
+    color: rgb(252, 252, 88);
 }
 /* Style for menu1- Danh mục sản phẩm */
 .menu-product, .support{
@@ -62,7 +73,7 @@ body{
     color: #FFF;
 }
 .box{
-	width:225px;
+	width:228px;
     border:1px solid #333;
     border-radius: 10px;
     margin: 10px 15px;
@@ -85,6 +96,7 @@ body{
 }
 .a img{
     transition-duration: 0.5s;
+    border-radius: 10px;
 }
 .a img:hover{
     transform:scale(1.5);
