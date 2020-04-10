@@ -9,19 +9,19 @@ body{
 .navbar-default .navbar-brand {
     color: #fff;
     font-family: 'Italiana', serif;
+    font-size: 3rem;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #d9534f;
 }
-
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #d9534f;
-    color: rgb(252, 252, 88);
+    background-color:#eee;
+    color: #d9534f;
 }
 /* Style for menu1- Danh mục sản phẩm */
 .menu-product, .support{
@@ -108,4 +108,13 @@ body{
 	border-radius:5px;
 	color:#FFF;
 	padding:0 5px;
+}
+/* Style for carousel */
+.carousel-caption {
+    background: linear-gradient(0deg, #0d5f3d 0%, rgba(111, 196, 136, 0) 100%);
+    border-radius: 10px;
+}
+#myCarousel{
+    margin-bottom: 20px;
+    margin-top: -28px;
 }
