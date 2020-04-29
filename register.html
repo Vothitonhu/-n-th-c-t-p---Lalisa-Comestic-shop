@@ -48,8 +48,10 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span
                                     class="glyphicon glyphicon-user"></span> Tài khoản <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng ký</a></li>
+                                <li><a href="log-in.html"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a>
+                                </li>
+                                <li><a href="register.html"><span class="glyphicon glyphicon-log-in"></span> Đăng ký</a>
+                                </li>
                             </ul>
                         </li>
                         <li><a href="#"><i class="fas fa-cart-arrow-down"></i> Giỏ hàng</a></li>
@@ -68,18 +70,16 @@
                 <!-- Default form register -->
                 <form class="text-center border border-light p-5" action="#!">
 
-                    <p class="h4 mb-4">Sign up</p>
+                    <p class="h4 mb-4">Đăng ký</p>
 
                     <div class="form-row mb-4">
-                        <div class="col">
-                            <!-- First name -->
+                        <!-- <div class="col">
                             <input type="text" id="defaultRegisterFormFirstName" class="form-control"
-                                placeholder="First name">
-                        </div>
+                                placeholder="Họ">
+                        </div> -->
                         <div class="col">
                             <!-- Last name -->
-                            <input type="text" id="defaultRegisterFormLastName" class="form-control"
-                                placeholder="Last name">
+                            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Tên">
                         </div>
                     </div>
 
@@ -87,43 +87,43 @@
                     <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
 
                     <!-- Password -->
-                    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+                    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Mật khẩu"
                         aria-describedby="defaultRegisterFormPasswordHelpBlock">
                     <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                        At least 8 characters and 1 digit
+                        Ít nhất 8 ký tự và 1 chữ số
                     </small>
 
                     <!-- Phone number -->
-                    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
-                        aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                    <input type="text" id="defaultRegisterPhonePassword" class="form-control"
+                        placeholder="Số điện thoại" aria-describedby="defaultRegisterFormPhoneHelpBlock">
                     <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
-                        Optional - for two step authentication
+                        Tùy chọn - để xác thực hai bước
                     </small>
 
                     <!-- Newsletter -->
                     <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
-                        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our
-                            newsletter</label>
+                        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Đăng ký nhận bản tin của
+                            chúng tôi</label>
                     </div>
 
                     <!-- Sign up button -->
-                    <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+                    <button class="btn btn-info my-4 btn-block" type="submit">Đăng ký</button>
 
                     <!-- Social register -->
-                    <p>or sign up with:</p>
+                    <p>Đăng ký với: </p>
 
-                    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
-                    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
-                    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
-                    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+                    <!--Facebook-->
+                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    <!--Google +-->
+                    <a type="button" class="btn-floating btn-small btn-google"><i class="fab fa-google fa-2x"></i></a>
 
                     <hr>
 
                     <!-- Terms of service -->
-                    <p>By clicking
-                        <em>Sign up</em> you agree to our
-                        <a href="" target="_blank">terms of service</a>
+                    <p>Bằng cách nhấp vào
+                        <em>Đăng ký</em> bạn đồng ý với
+                        <a href="" target="_blank">Điều khoản dịch vụ </a>của chúng tôi </p>
 
                 </form>
                 <!-- Default form register -->
